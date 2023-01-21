@@ -1,0 +1,58 @@
+body {
+    height: 100vh;  
+    margin: 0;
+    font-family: sans-serif;
+    background: url(https://addons-media.operacdn.com/media/CACHE/images/themes/17/253617/1.0-rev1/images/9408bc04f534337aacda0fbf13ff3b27/321b161aae14e665c46350c174336a00.jpg) no-repeat;
+    background-size:100% ;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+   }
+
+button {
+    width: 8%;
+    height: 30px;
+    background: url(https://addons-media.operacdn.com/media/CACHE/images/themes/17/253617/1.0-rev1/images/9408bc04f534337aacda0fbf13ff3b27/321b161aae14e665c46350c174336a00.jpg);
+    border-radius: 10px;
+    border: 2px solid rgb(25, 7, 46);
+    transition: 1s;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: monospace;
+  }
+
+  button:hover{
+      border: 2px solid white;
+  }
+
+   label {
+      color:white;
+    text-align: center;  
+    font-size: 20px;
+    font-weight: bold;
+    font-family: monospace;
+  }
+
+  input{
+    width: 50%;
+    margin: 1vh;
+    border-radius: 10px;
+    border: 3px solid rgb(36, 2, 230);
+    height: 30px;
+   
+  }
+
+   h1 {
+      color: white;
+    font-size: 35px;
+    text-align: center;
+    text-shadow: 2px 2px rgb(97, 14, 145);
+  }
+
+  .emial-container {
+    width: 100%;
+    text-align: center;
+
+  }
