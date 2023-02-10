@@ -1,0 +1,108 @@
+body {
+    background: linear-gradient(45deg,darkblue,aliceblue);
+    font-family: arial;
+  }
+
+  .main {
+    padding: 2vw;
+  }
+
+  .banner {
+    margin: 2vw;
+    padding: 3vw;
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+    background-color: aliceblue;
+    border-radius: 10px;
+  }
+
+  .art {
+    margin: 3vw;
+    padding: 3vw;
+    background-color: lavenderblush;
+    border-radius: 10px;
+  }
+
+  .art > h2 {
+    font-size: 27px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .art > p {
+    font-weight: bold;
+  }
+
+  .pimg {
+    height: auto;
+    float: left;
+    margin: 1vw;
+    max-height: 33vh;
+    border: 2px solid;
+    border-radius: 5px;
+  }
+
+  .fright {
+    float: right;
+  }
+
+  @media only screen and (min-width: 700px){
+    .pimg {
+        width: 43%;
+    }
+  }
+  @media only screen and (max-width: 699px) {
+    .pimg {
+        width: 60%;
+    }
+  }
+
+  .gimg {
+    width: 100%;
+    height: auto;
+    border: 2px solid;
+    border-radius: 5px;
+  }
+
+  .gallery {
+    display: flex;
+    justify-content: center;
+    
+  }
+
+  .gallery > div {
+    margin: 3vw;
+  }
+
+  @media only screen and (min-width: 1400px){
+    .gallery {
+      flex-direction: row;
+    }
+  }
+
+   @media only screen and (max-width: 1399px){
+    .gallery {
+      flex-direction: column;
+    }
+  }
+
+  .side-menu {
+    position: fixed;
+    right: 10px;
+    top: 40vh;
+    background-color: gray;
+    padding: 1%;
+    border: 2px solid;
+    border-radius: 20px;
+  }
+
+  .side-menu > div > a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .side-menu > div > a:hover {
+    color: yellow;
+  }
